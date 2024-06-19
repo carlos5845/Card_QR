@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: rgb(210, 222, 235);
+        font-family: "Outfit", sans-serif;
+      }
+
+      .card {
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        width: 300px;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .imagen img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+
+      .parrafo_1 {
+        font-size: 1.5em;
+        margin: 20px 0 10px 0;
+        color: #333;
+        font-weight: 700;
+
+      }
+
+      .parrafo_2 {
+        font-size: 1em;
+        color: #777;
+        margin-bottom: 20px;
+        font-weight: 400;
+
+      }
+
+      .attribution {
+        font-size: 0.8em;
+        color: #aaa;
+      }
+
+      .attribution a {
+        color: #00aaff;
+        text-decoration: none;
+      }
+
+      .attribution a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="imagen">
+        <img src="images/image-qr-code.png" alt="imagen_QR" class="imagen_QR" />
+      </div>
+      <div class="parrafo">
+        <h4 class="parrafo_1">
+          Improve your front-end <br />
+          skills by building projects
+        </h4>
+        <h5 class="parrafo_2">
+          Scan the QR code to visit Frontend <br />
+          Mentor and take your coding skills to <br />
+          the next level
+        </h5>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Carlos David</a>.
+      </div>
+    </div>
+  </body>
+</html>
